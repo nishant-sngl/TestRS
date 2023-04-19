@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import javax.swing.*;
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -231,7 +232,7 @@ public class P1 {
         driver = new ChromeDriver();
 //        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wait = new WebDriverWait(driver,10);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.get(url);
     }
     static void init1(String url){
@@ -239,7 +240,7 @@ public class P1 {
         driver = new ChromeDriver();
 //        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wait = new WebDriverWait(driver,10);
+        wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 
         switch (url){
             case "input":

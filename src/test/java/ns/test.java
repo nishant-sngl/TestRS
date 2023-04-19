@@ -31,7 +31,7 @@ public class test {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();;
         driver.get("https://rahulshettyacademy.com/client");
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         //login page
 //        driver.findElement(By.id("userEmail")).sendKeys("123@xyz.con");
