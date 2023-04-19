@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite
+        name="Practice Suite"
+        parallel="classes"
+        thread-count="3">
+<!--       data-provider-thread-count="3"-->
+<!--&gt;-->
+    <listeners>
+        <listener class-name="ns.TestListeners"></listener>
+    </listeners>
+    <test name="Test Basics 1" thread-count="3" parallel="classes" >
+        <groups>
+            <run>
+<!--                <include name="negative"/>-->
+            </run>
+        </groups>
+        <classes>
+            <class name="ns.InvalidLoginTest"/>
+            <class name="ns.PlaceOrderTest"/>
+            <class name="ns.RegisterPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+<!--    <test name="Test Basics 2">-->
+<!--        <classes>-->
+<!--            <class name="ns.PlaceOrderTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+
+<!--    <test name="Test Basics 3">-->
+<!--        <classes>-->
+<!--            <class name="ns.RegisterPageTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+</suite> <!-- Suite -->

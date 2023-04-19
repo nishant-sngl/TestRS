@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="ns.TestListeners"></listener>
+    </listeners>
+    <test name="fb">
+        <classes>
+            <class name="ns.TitleFacebook"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="google">
+        <classes>
+            <class name="ns.TitleGoogle"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="lin">
+        <classes>
+            <class name="ns.TitleLinkedin"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

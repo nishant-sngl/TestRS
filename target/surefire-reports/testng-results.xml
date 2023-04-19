@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T17:42:18 IST" name="Practice Suite" finished-at="2023-03-30T17:42:52 IST" duration-ms="33988">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T17:42:18 IST" name="google" finished-at="2023-03-30T17:42:52 IST" duration-ms="33988">
+      <class name="ns.TitleGoogle">
+        <test-method signature="goo()[pri:0, instance:ns.TitleGoogle@2ea41516]" started-at="2023-03-30T17:42:18 IST" name="goo" finished-at="2023-03-30T17:42:52 IST" duration-ms="33968" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "sc" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "sc" is null
+at ns.BaseTest.takeScreenshot(BaseTest.java:87)
+at ns.TestListeners.onTestSuccess(TestListeners.java:34)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goo -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:ns.TitleGoogle@2ea41516]" started-at="2023-03-30T17:42:18 IST" name="init" finished-at="2023-03-30T17:42:49 IST" duration-ms="31867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@121314f7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- ns.TitleGoogle -->
+    </test> <!-- google -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

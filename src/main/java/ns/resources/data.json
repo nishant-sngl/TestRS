@@ -1,0 +1,11 @@
+[
+  {"email":"123@xyz.con",
+    "password" : "123456q.Q"
+  },
+  {"email":"123@xyz.con2",
+    "password" : "123456q.Q"
+  },
+  {"email":"1234@xyz.con",
+    "password" : "123456q.Q"
+  }
+]
