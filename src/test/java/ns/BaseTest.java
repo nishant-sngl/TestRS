@@ -69,7 +69,7 @@ public class BaseTest {
             case "grid":
                 DesiredCapabilities des = new DesiredCapabilities();
                 des.setBrowserName("chrome");
-                driver = new RemoteWebDriver(new URL("http://localhost:4444"), des);
+                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), des);
                 break;
         }
         context.setAttribute("WebDriver", driver);
