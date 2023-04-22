@@ -1,8 +1,9 @@
-package ns;
+package ns.others;
 
+import ns.base.BaseTest;
 import org.testng.annotations.Test;
 
-public class TitleGoogle extends BaseTest{
+public class TitleGoogle extends BaseTest {
     @Test
     public void goo() {
         String s;

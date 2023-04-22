@@ -1,5 +1,6 @@
-package ns;
+package ns.others;
 
+import ns.base.BaseTest;
 import org.testng.annotations.Test;
 
 public class TitleFacebook extends BaseTest {

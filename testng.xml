@@ -7,7 +7,7 @@
 <!--       data-provider-thread-count="3"-->
 <!--&gt;-->
     <listeners>
-        <listener class-name="ns.TestListeners"></listener>
+        <listener class-name="ns.others.TestListeners"></listener>
     </listeners>
 <!--    <test name="Test Basics 1" thread-count="3" parallel="classes" >-->
 <!--        <groups>-->
@@ -16,21 +16,21 @@
 <!--            </run>-->
 <!--        </groups>-->
 <!--        <classes>-->
-<!--            <class name="ns.InvalidLoginTest"/>-->
-<!--            <class name="ns.PlaceOrderTest"/>-->
-<!--            <class name="ns.RegisterPageTest"/>-->
+<!--            <class name="ns.tests.InvalidLoginTest"/>-->
+<!--            <class name="ns.tests.PlaceOrderTest"/>-->
+<!--            <class name="ns.tests.RegisterPageTest"/>-->
 <!--        </classes>-->
 <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
 
-    <test name="Test Basics 2">
+    <test name="RS cart">
         <classes>
-            <class name="ns.PlaceOrderTest"/>
+            <class name="ns.tests.PlaceOrderTest"/>
         </classes>
     </test> <!-- Test -->
 
 <!--    <test name="Test Basics 3">-->
 <!--        <classes>-->
-<!--            <class name="ns.RegisterPageTest"/>-->
+<!--            <class name="ns.tests.RegisterPageTest"/>-->
 <!--        </classes>-->
 <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
 </suite> <!-- Suite -->

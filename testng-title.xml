@@ -2,21 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Practice Suite" parallel="tests" thread-count="3">
     <listeners>
-        <listener class-name="ns.TestListeners"></listener>
+        <listener class-name="ns.others.TestListeners"></listener>
     </listeners>
     <test name="fb">
         <classes>
-            <class name="ns.TitleFacebook"/>
+            <class name="ns.others.TitleFacebook"/>
         </classes>
     </test> <!-- Test -->
     <test name="google">
         <classes>
-            <class name="ns.TitleGoogle"/>
+            <class name="ns.others.TitleGoogle"/>
         </classes>
     </test> <!-- Test -->
     <test name="lin">
         <classes>
-            <class name="ns.TitleLinkedin"/>
+            <class name="ns.others.TitleLinkedin"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

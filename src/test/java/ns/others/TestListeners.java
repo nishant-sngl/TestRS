@@ -1,8 +1,9 @@
-package ns;
+package ns.others;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import ns.base.BaseTest;
 import ns.resources.Reports;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;

@@ -1,4 +1,4 @@
-package ns;
+package ns.base;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -30,9 +30,9 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    WebDriver driver;
-    String browser;
-    LandingPage landingPage;
+    public WebDriver driver;
+    public String browser;
+    public LandingPage landingPage;
 
     @BeforeMethod(alwaysRun = true)
     public LandingPage init(ITestContext context) throws IOException {

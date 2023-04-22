@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Practice Suite" parallel="classes" thread-count="2">
     <listeners>
-        <listener class-name="ns.TestListeners"></listener>
+        <listener class-name="ns.others.TestListeners"></listener>
     </listeners>
     <test name="Test Basics 1" thread-count="2" parallel="classes">
 <!--        <groups>-->
@@ -11,10 +11,10 @@
 <!--            </run>-->
 <!--        </groups>-->
         <classes>
-<!--            <class name="ns.InvalidLoginTest"/>-->
-<!--            <class name="ns.PlaceOrderTest"/>-->
-            <class name="ns.GridTest"/>
-            <class name="ns.GridTest1"/>
+<!--            <class name="ns.tests.InvalidLoginTest"/>-->
+<!--            <class name="ns.tests.PlaceOrderTest"/>-->
+            <class name="ns.others.GridTest"/>
+            <class name="ns.others.GridTest1"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

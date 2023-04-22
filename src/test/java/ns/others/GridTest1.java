@@ -1,4 +1,4 @@
-package ns;
+package ns.others;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class GridTest {
+public class GridTest1 {
 
     @Test
-    public static void gridd() throws MalformedURLException {
+    public static void gridd1() throws MalformedURLException {
         DesiredCapabilities des = new DesiredCapabilities();
-        des.setBrowserName("MicrosoftEdge");
+        des.setBrowserName("firefox");
         WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444"), des);
-        driver.get("http://www.google.com");
+        driver.get("http://www.facebook.com");
         System.out.println(driver.getTitle());
     }
 

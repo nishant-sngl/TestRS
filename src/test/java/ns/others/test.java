@@ -1,4 +1,4 @@
-package ns;
+package ns.others;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import ns.pages.LandingPage;

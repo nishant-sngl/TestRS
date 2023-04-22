@@ -1,9 +1,10 @@
-package ns;
+package ns.tests;
 
+import ns.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class InvalidLoginTest extends BaseTest{
+public class InvalidLoginTest extends BaseTest {
 
     @Test(groups = {"negative","sanity"})
     public void invalidEmail() throws InterruptedException {

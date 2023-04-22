@@ -1,8 +1,6 @@
-package ns;
+package ns.tests;
 
-import ns.pages.LandingPage;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import ns.base.BaseTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
